@@ -15,15 +15,15 @@ class App extends Component {
 
   componentDidMount() {
     axios
-      .get("https://pixabay.com/api/?key=12145459-9f7087c163adfae3e8a92828d&image_type=photo&q=dog")
-      .then(response =>
-        response.data.results.map(images => ({
-          typeImages: `${images.image_type}`,
-        }))
-      )
+      .get("https://pixabay.com/api/?key=12145459-9f7087c163adfae3e8a92828d&q=all&image_type=photo")
+      // .then(response =>
+      //   response.data.results.map(images => ({
+      //     typeImages: `${images.image_type}`,
+      //   }))
+      // )
       .then(images => {
         this.setState({
-          images,
+          images:images.data.hits,
           isLoading: false
         });
       })
@@ -31,14 +31,15 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.state.images)
     const { isLoading, images } = this.state;
     return (
       <div>
         <Navbar />
         <React.Fragment>
-          <h2>Random User</h2>
+
           <div>
-            {!isLoading ? (
+            {/* {!isLoading ? (
               images.map(images => {
                 const { image_type } = images;
                 return (
@@ -47,7 +48,11 @@ class App extends Component {
               })
             ) : (
                 <p>Loading...</p>
-              )}
+              )} */}
+             <div className="masonry">
+      
+              {images.map(img => <div className="item"> <img src={img.largeImageURL} /> </div>)}
+              </div>
           </div>
         </React.Fragment>
       </div>
