@@ -1,0 +1,18 @@
+
+.Logo{
+    width: 5%;
+    height: auto;
+    margin: auto;
+}
+
+.Search{
+    border-radius: 4px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    height: 100%;
+    line-height: 20px;
+    outline: none;
+    padding: 0 40px 0 52px;
+    width: 100%;
+}
