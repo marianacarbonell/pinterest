@@ -38,7 +38,7 @@ class App extends Component {
         <Navbar />
         <React.Fragment>
 
-          <div>
+          <div className="container">
             {/* {!isLoading ? (
               images.map(images => {
                 const { image_type } = images;
