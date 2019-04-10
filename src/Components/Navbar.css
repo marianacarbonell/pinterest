@@ -2,12 +2,14 @@
 .image{
    width: 30px;
     height: auto;
-    padding-left: 15px;
+    
+    margin-left: 1.5rem;
 }
 .Logo{
     width: 5%;
     height: auto;
     margin: auto;
+    
     
 }
 .navbar{
@@ -17,11 +19,12 @@
 }
 
 .Search{
-    width: 50%;
+    width: 40%;
     height: auto;
+    margin-left: 1.5rem;
 }
 
-.Search input{
+/* .Search input{
     width: 180%;
     height: 100%;
     border: 0;
@@ -32,5 +35,10 @@
     font-size: 100%;
     margin-left: 20px;
     
-}
+} */
 
+.Home,.Follow,.Name,.fa-comment-dots,.fa-bell,.fa-ellipsis-h{
+    margin-left: 2rem;
+    color: #8e8e8e;
+    font-size: 115%;
+}

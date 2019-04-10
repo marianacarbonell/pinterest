@@ -21,3 +21,9 @@
   margin-right: 130px;
   margin-top:40px;
 }
+
+.item:hover{
+  cursor: zoom-in;
+  background-color: grey;
+  border-radius: 7px;
+}
