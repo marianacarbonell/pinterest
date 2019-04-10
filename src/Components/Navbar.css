@@ -2,7 +2,7 @@
 .image{
    width: 30px;
     height: auto;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 .Logo{
     width: 5%;
@@ -12,17 +12,25 @@
 }
 .navbar{
     display: flex;
+    margin-top: 15px;
+   
 }
 
 .Search{
-    border-radius: 4px;
-    color: #333;
-    font-size: 16px;
-    font-weight: 600;
+    width: 50%;
+    height: auto;
+}
+
+.Search input{
+    width: 180%;
     height: 100%;
-    line-height: 20px;
-    outline: none;
-    padding: 0 40px 0 52px;
-    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 100%;
+    margin-left: 20px;
+    
 }
 

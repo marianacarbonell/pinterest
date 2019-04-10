@@ -13,11 +13,11 @@
 
 .item img{
     width: 100%;
-   
+   border-radius: 7px;
 }
 
 .container{
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top:30px;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top:40px;
 }

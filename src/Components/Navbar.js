@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import './Img.css';
+import RigthButtons from './RigthButtons';
 
                                                                                                                                                   
 class Navbar extends Component {
@@ -13,6 +14,7 @@ class Navbar extends Component {
                 <div className="Search">
                     <input type="text" placeholder="Buscar" />
                 </div>
+                <RigthButtons/>
             </div> 
                 )
         
