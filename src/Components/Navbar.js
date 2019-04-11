@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import './Img.css';
-import RigthButtons from './RigthButtons';
+
 
 
 class Navbar extends Component {

@@ -1,8 +1,7 @@
 
 .image{
    width: 30px;
-    height: auto;
-    
+   height: auto;
     margin-left: 1.5rem;
 }
 .Logo{
@@ -22,6 +21,9 @@
     width: 40%;
     height: auto;
     margin-left: 1.5rem;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 100%;
 }
 
 /* .Search input{
