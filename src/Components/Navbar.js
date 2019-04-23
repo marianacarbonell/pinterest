@@ -12,7 +12,7 @@ class Navbar extends Component {
                 <navbar>
                     <url>
                         <img src="https://cdn.freebiesupply.com/logos/large/2x/pinterest-1-logo-png-transparent.png" className="image" alt="" />
-                        {/* <i class="fas fa-search"></i> */}
+                        <i class="fas fa-search"></i>
                         <input className="Search" placeholder="Buscar"></input>
                         <a className="Home">Inicio</a>
                         <a className="Follow">Siguiendo</a>
