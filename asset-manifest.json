@@ -1,13 +1,13 @@
 {
-  "main.css": "/marianacarbonell/pinterest/static/css/main.ea41d531.chunk.css",
-  "main.js": "/marianacarbonell/pinterest/static/js/main.464fdfca.chunk.js",
-  "main.js.map": "/marianacarbonell/pinterest/static/js/main.464fdfca.chunk.js.map",
-  "runtime~main.js": "/marianacarbonell/pinterest/static/js/runtime~main.ca945069.js",
-  "runtime~main.js.map": "/marianacarbonell/pinterest/static/js/runtime~main.ca945069.js.map",
-  "static/js/2.68b97e70.chunk.js": "/marianacarbonell/pinterest/static/js/2.68b97e70.chunk.js",
-  "static/js/2.68b97e70.chunk.js.map": "/marianacarbonell/pinterest/static/js/2.68b97e70.chunk.js.map",
-  "index.html": "/marianacarbonell/pinterest/index.html",
-  "precache-manifest.8e6498be0d991d81b157af3244b56cfe.js": "/marianacarbonell/pinterest/precache-manifest.8e6498be0d991d81b157af3244b56cfe.js",
-  "service-worker.js": "/marianacarbonell/pinterest/service-worker.js",
-  "static/css/main.ea41d531.chunk.css.map": "/marianacarbonell/pinterest/static/css/main.ea41d531.chunk.css.map"
+  "main.css": "/pinterest/static/css/main.ea41d531.chunk.css",
+  "main.js": "/pinterest/static/js/main.7f09a457.chunk.js",
+  "main.js.map": "/pinterest/static/js/main.7f09a457.chunk.js.map",
+  "runtime~main.js": "/pinterest/static/js/runtime~main.9d05082c.js",
+  "runtime~main.js.map": "/pinterest/static/js/runtime~main.9d05082c.js.map",
+  "static/js/2.be14d46f.chunk.js": "/pinterest/static/js/2.be14d46f.chunk.js",
+  "static/js/2.be14d46f.chunk.js.map": "/pinterest/static/js/2.be14d46f.chunk.js.map",
+  "index.html": "/pinterest/index.html",
+  "precache-manifest.563978ee501333215b316b37fef40ea5.js": "/pinterest/precache-manifest.563978ee501333215b316b37fef40ea5.js",
+  "service-worker.js": "/pinterest/service-worker.js",
+  "static/css/main.ea41d531.chunk.css.map": "/pinterest/static/css/main.ea41d531.chunk.css.map"
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/marianacarbonell/pinterest/precache-manifest.8e6498be0d991d81b157af3244b56cfe.js"
+  "/pinterest/precache-manifest.563978ee501333215b316b37fef40ea5.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/marianacarbonell/pinterest/index.html", {
+workbox.routing.registerNavigationRoute("/pinterest/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
